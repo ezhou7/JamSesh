@@ -1,3 +1,5 @@
 # CS370-Project
 
-'''yo yo what up'''
+A simple platform to find other musicians.
+
+``Built using Ruby on Rails w/ PostgresSQL and nodejs``
