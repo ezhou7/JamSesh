@@ -1,2 +1,12 @@
-<h1>HomePages#home</h1>
-<p>Find me in app/views/home_pages/home.html.erb</p>
+
+<% provide(:title, "Home") %>
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= yield(:title) %> | JamSesh</title>
+</head>
+<body>
+<h1>JamSesh</h1>
+<p>More Features to come soon!</p>
+</body>
+</html>
