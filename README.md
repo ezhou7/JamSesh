@@ -1,4 +1,4 @@
-# CS370-Project
+# CS370-Project - JamSesh
 
 A simple platform to find other musicians.
 
