@@ -10,7 +10,6 @@ class HomePagesControllerTest < ActionDispatch::IntegrationTest
     assert_response FILL_IN
   end
 
-
   test "should get home" do
     get home_pages_home_url
     assert_response :success
