@@ -6,8 +6,10 @@ class HomePagesControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should get root" do
-    get FILL_IN
-    assert_response FILL_IN
+
+   get home_pages_home_url
+   assert_response :success
+   assert_select "title", "Home | #{@base_title}"
   end
 
   test "should get home" do
