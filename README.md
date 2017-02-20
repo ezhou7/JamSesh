@@ -1,3 +1,5 @@
-# CS370-Project
+# CS370-Project - JamSesh
 
-'''yo yo what up asdfjas;dlkf'''
+A simple platform to find other musicians.
+
+``Built using Ruby on Rails w/ PostgresSQL and nodejs``
