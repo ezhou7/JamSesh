@@ -5,6 +5,9 @@ class HomePagesController < ApplicationController
   def aboutus
   end
 
+  def contact
+  end
+
   def login
   end
 end
