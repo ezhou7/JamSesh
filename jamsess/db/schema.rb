@@ -28,7 +28,7 @@ ActiveRecord::Schema.define(version: 20150902201235) do
     t.integer "jam_sessions_id",                  null: false
     t.integer "init_user_id",                     null: false
     t.integer "part_user_id",                     null: false
-    t.datatime "sesh_time",                       null: false
+    t.datetime "sesh_time",                       null: false
   end
 
   create_table "genres", force: :cascade do |t|
